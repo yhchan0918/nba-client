@@ -154,7 +154,7 @@ def run():
         input_data = user_input_features()
 
     if st.button("Predict"):
-        response = requests.post("http://server:8000/predict", json=input_data)
+        response = requests.post("https://nba-server1.herokuapp.com/predict", json=input_data)
         prediction = response.text
         st.success(f"The prediction from model: {prediction}")
 
