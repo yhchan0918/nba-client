@@ -4,7 +4,7 @@ import json
 import pandas as pd
 
 # Collects user input features into dataframe
-title = "NBA Game Classifier"
+title = "NBA Game Winner Predictor"
 
 st.set_page_config(page_title=title,)
 st.title(title)
